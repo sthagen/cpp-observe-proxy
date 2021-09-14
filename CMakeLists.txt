@@ -42,7 +42,7 @@ CPMAddPackage(
 # ---- Create binary ----
 
 add_executable(observe_test main.cpp)
-target_link_libraries(observe_test doctest observe)
+target_link_libraries(observe_test doctest Observe)
 set_target_properties(observe_test PROPERTIES CXX_STANDARD 17)
 
 # ---- Enable testing ----
