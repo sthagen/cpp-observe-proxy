@@ -50,7 +50,7 @@ TEST_SUITE ("Example derived tests.") {
     TEST_CASE ("First test.") {
         /* Example snippet:
          *
-         * example
+         * observe::Event<> eventA;
          */
         const auto result = 42;
         REQUIRE(result == 42);
