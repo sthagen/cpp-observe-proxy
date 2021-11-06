@@ -5,3 +5,5 @@ Experimental third party proxy of the C++17 observer implementation from Lars.
 ## Status
 
 Experimental.
+
+**Note**: The default branch is `default`.
