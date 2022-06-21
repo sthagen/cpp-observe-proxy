@@ -18,7 +18,7 @@ int main() {
 
   observe::Event<int> eventC;
 
-    // connect will always trigger when an event is triggered
+  // connect will always trigger when an event is triggered
   eventA.connect([](){
     std::cout << "A triggered" << std::endl;
   });
@@ -41,7 +41,7 @@ int main() {
   eventC.emit(2);
   eventC.emit(42);
 
-    // to remove an observer without destroying the object, call reset
+  // to remove an observer without destroying the object, call reset
   observer.reset();
 }
 */
